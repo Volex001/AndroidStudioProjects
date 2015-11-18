@@ -25,8 +25,6 @@ public class HandHeldActivity extends ActionBarActivity {
             @Override
             public void onClick(View v) {
                 Intent testje = new Intent();
-                testje.setAction(ACTION_);
-                testje.putExtra(ConfirmationActivity.EXTRA_ANIMATION_TYPE, ConfirmationActivity.OPEN_ON_PHONE);
                 Notification notification = new NotificationCompat.Builder(getApplication())
                         .setSmallIcon(R.mipmap.ic_launcher)
                         .setContentTitle("Two Brains")
